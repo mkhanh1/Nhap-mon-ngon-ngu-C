@@ -1,0 +1,56 @@
+câu 2: có 15 kiểu dữ liệu được dung trong ngôn ngữ 
+ -Gồm:
+ +char
+ +unsigned
+ +signed char
+ +int
+ +unsigned int
+ +signed int
+ +short int
+ +unsigned short int
+ +signed short int
+ +long int
+ +signed long int
+ +unsigned long int
+ +float
+ +double
+ +long double
+ -Nhưng kiểu dữ liệu được dùng nhiều nhất trong ngôn ngữ c char,int,float,double.
+ câu 3:
+ -Biến(Variables)
+ +Một chương trình ứng dụng có thể quản lí nhiều loại dữ liệu.Trong trường hợp này,chương trình phải chỉ định bộ nhớ cho mỗi dữ liệu.Khi chỉ định bộ nhớ,có hai điểm cần lưu ý như sau:
+ .Kích thước bộ nhớ( kiểu dữ liệu)
+ .vị trí bộ nhớ( địa chỉ bộ nhớ)
+ +các ngôn lập trình hiện đại cho phép ta sử dụng các các tên tượng trưng gọi là biến(Variable),chỉ đến 1 vùng bộ nhớ nơi mà các giá trị cụ thể được lưu trữ.
+ +Hệ điều hành hoạt động như một giao diện giữa các ô nhớ và lập trình viên.Lập trình viên không cần lưu tâm về vị trí ô nhớ mà để cho hệ điều hành đảm nhiệm.
+ -Khai báo khởi tạo biến
+ +Biến có thể được khai báo theo cú pháp:
+  Kiểu_dữ_liệu Tên_biến;
+  Trong đó: kiểu_dữ_liệu là kiểu dữ liệu;tên_biến là tên biến;kết thúc khai báo là dấu chấm phẩy
+  ví dụ:int num;->int là kiểu dữ liệu và num là biến 
+  +Khởi tạo biến theo cú pháp:
+  Tên_biến=Giá_trị;// ví dụ num=5;
+  Một giá trị Giá_trị kiểu Kiểu_dữ_liệu được lưu trữ trong biến Tên_biến thông qua toán tử gán
+  +khai bao và khởi tạo biến có thể thực hiện đồng thời:
+  Kiểu_dữ_liệu Tên_biến=Giá_trị;// ví dụ int num=5;
+  câu 4:
+  -Biến toàn cục(global variable)
+  +Được khai báo bên ngoài tất cả các hàm (kể cả main)
+  +Thường được khái bao tại Khối khai báo
+  +Có thể sử dụng tại mọi vị trí trong chương trình như các hàm, khối lặp lệnh for hay while
+  -Biến cục bộ hay địa phương(local variable)
+  +Được kháo báo trong các hàm hay khối lệnh(ví dụ như biến lệnh lặp for)
+  +Chỉ có thể được sử dụng trong phạm vi hàm hay khối lệnh
+  +Các tham số của hàm (nếu có) là các biến cục bộ của hàm đó.
+  Câu 5:
+  -Hàm: +Hàm là một khối lệnh(nhiều lệnh) thực hiện một nhiệm vụ cụ thể nào đó(tính tổng,hiển thị thông báo đến người dùng,...)
+        +Một cách hiểu khác về hàm: hàm là một sự chia nhỏ của chương trình.
+   -Hàm có 2 loại:
+   +Hàm thư viện chuẩn(Standard library functions):
+   *Là các hàm được xây dụng sẵn(build-in functions) trong ngôn ngữ C như các hàm scanf,printf,getchar,...
+   *Các hàm được định nghĩa trong các tập tin có phần mở rộng .h như stdio.h,conio.h,...Các tập tin này phải được gộp vào chương trình thong qua chỉ định #include
+   +Hàm cho người dùng định nghĩa(User-defined functions): định nghĩa theo nhu cầu người dùng.
+   Câu 1:
+   -Ngôn Ngữ C: Vào đầu những năm 70 tại phòng thí nghiệm Bell,Dennis Ritchie đã phát triển ngôn ngữ C
+   +C là ngôn ngữ bậc trung: C được hiểu là ngôn ngữ bậc trungbởi vì nó kết hợp những yếu tố củav những ngôn ngữ cấp cao và nhưng chức năng của ngôn ngữ(ngôn ngữ cấp thấp)
+   +C là nggon ngữ có cấu trúc: C cho phép có sự tổng lệnh của mã lệnh và dữ liệu.
