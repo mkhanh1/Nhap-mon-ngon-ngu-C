@@ -9,11 +9,11 @@ int main(){
     printf ("Nhap so C: ");
     scanf ("%d",&c);
     if (a >= b && a >= c){
-         printf("So lon nhat trong 3 so la:\na = %d", a);
+         printf("So lon nhat trong 3 so la %d", a);
 }else if (b >= a && b >= c){
-         printf("So lon nhat trong 3 so la:\nb = %d", b);
+         printf("So lon nhat trong 3 so la %d", b);
 }else {
-         printf("So lon nhat trong 3 so la:\nc = %d", c);
+         printf("So lon nhat trong 3 so la %d", c);
      }
  
 }
