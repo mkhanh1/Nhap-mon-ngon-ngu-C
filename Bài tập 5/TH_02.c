@@ -2,12 +2,12 @@
 
 int main() {
   int a, b;
-  int c = 0;
-  printf("/n nhap a:");
+  int tong = 0;
+  printf("\n nhap a:");
   scanf("%d",&a);
-  for(b = 1; b <= a;b++){
-    c = c + b;
+  for(b = 1; b <= a;b+=1){
+    tong =tong+ b;
   }
-  printf("/n tong 1 + 2 +...+%d",c);
+  printf("\n tong :%d",tong);
   return 0;
 }
